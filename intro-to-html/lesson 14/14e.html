@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>14e</title>
+    <style>
+      body {
+        font-family: Arial;
+        height: 3000px;
+      }
+      .facebook {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      .first-half {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .profile-picture {
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-right: 10px;
+      }
+      .name {
+        font-weight: bold;
+      }
+
+      .add-friend {
+        margin-right: 3px;
+        border-radius: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        background-color: rgb(24, 119, 242);
+      }
+      .message {
+        border-radius: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: none;
+
+        font-weight: bold;
+        background-color: rgb(230, 230, 230);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="facebook">
+      <div class="first-half">
+        <img class="profile-picture" src="images/1.jpg" />
+        <div class="name">Oliver Cat</div>
+      </div>
+      <div class="second-half">
+        <button class="add-friend">Add Friend</button>
+        <button class="message">Message</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>14e</title>
+    <style>
+      body {
+        height: 3000px;
+        font-family: Arial;
+      }
+
+      .first-sidebar {
+        position: fixed;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(33, 33, 33);
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+      img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-bottom: 10px;
+      }
+
+      .second-sidebar {
+        width: 180px;
+        padding-top: 15px;
+
+        padding-left: 15px;
+        padding-right: 10px;
+        position: fixed;
+        left: 70px;
+        top: 0;
+        bottom: 0;
+        background-color: rgb(55, 55, 55);
+      }
+      .first-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .channel1 {
+        margin-bottom: 16px;
+        color: rgb(150, 150, 150);
+      }
+      .info {
+        color: white;
+        font-size: 14px;
+      }
+      .plus-sign {
+        color: rgb(150, 150, 150);
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first-sidebar">
+      <img class="first-pic" src="images/1.jpg" />
+      <img class="first-pic" src="images/2.jpg" />
+      <img class="first-pic" src="images/dp1.png" />
+    </div>
+    <div class="second-sidebar">
+      <div class="first-row">
+        <div class="info">INFO</div>
+        <div class="plus-sign">+</div>
+      </div>
+      <div class="other-row">
+        <div class="channel1"># new-videos</div>
+      </div>
+      <div class="other-row">
+        <div class="channel1"># updates</div>
+      </div>
+
+      <div class="other-row">
+        <div class="channel1"># faq</div>
+      </div>
+    </div>
+  </body>
+</html>

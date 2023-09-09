@@ -1,0 +1,23 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.name {
+  margin-bottom: 5px;
+}
+.author {
+  font-weight: bold;
+}
+.address {
+  color: rgb(100, 100, 100);
+}
+.content {
+  width: 600px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.chip {
+  color: rgb(29, 155, 240);
+}

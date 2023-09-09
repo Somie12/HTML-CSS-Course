@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13g</title>
+    <style>
+      div {
+        font-family: Arial;
+      }
+      .container {
+        width: 420px;
+
+        margin-top: 10px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+      }
+      .sender-picture-section {
+        margin-top: 10px;
+      }
+      .sender-picture {
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+        object-fit: cover;
+      }
+      .tweet-content {
+        flex: 1;
+        margin-left: 12px;
+      }
+      .first-row {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+      }
+      .name {
+        font-weight: bold;
+        margin-right: 5px;
+      }
+      .id {
+        color: rgb(111, 111, 111);
+      }
+      .second-row {
+        line-height: 20px;
+        margin-bottom: 15px;
+      }
+
+      .fourth-row {
+        overflow: hidden;
+        align-items: center;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(200, 200, 200);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+      }
+      .video-background {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+        background-color: rgb(220, 220, 220);
+      }
+      .video-details {
+        flex: 1;
+      }
+      .youtube {
+        color: rgb(111, 111, 111);
+        margin-bottom: 3px;
+      }
+      .title {
+        line-height: 22px;
+      }
+    </style>
+    <body>
+      <div class="container">
+        <div class="sender-picture-section">
+          <img class="sender-picture" src="images/Women-Reading.jpg" />
+        </div>
+        <div class="tweet-content">
+          <div class="first-row">
+            <div class="name">supersimple.dev</div>
+            <div class="id">@supersimple.dev</div>
+          </div>
+          <div class="second-row">
+            What is backend web devlopment?A complete overview.New video is up!
+          </div>
+
+          <div class="fourth-row">
+            <div class="video-background"></div>
+            <div class="video-details">
+              <div class="youtube">youtube.com</div>
+              <div class="title">
+                Backend web devleopment - a complete overview(2021)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>

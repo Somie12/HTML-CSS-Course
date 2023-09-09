@@ -1,0 +1,23 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.first {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+.usd {
+  font-size: 16px;
+  color: rgb(100, 100, 100);
+}
+.second {
+  color: rgb(24, 128, 56);
+  margin-bottom: 8px;
+}
+.third {
+  color: rgb(100, 100, 100);
+}
+.price {
+  color: rgb(235, 39, 39);
+}
